@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bsfiles/css/bootstrap.css">
+    <link rel="stylesheet" href="urembo.css">
+</head>
+<body data-spy="scroll" data-target="navbarResponsive">
+<!--Start of navbar-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+
+    <a class="navbar-brand" href="index.html" id="m">Mobile-fix</a>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Gallery">Gallery</a>
+        </li>
+    </ul>
+</nav>
+<!--End of Navbar-->
+
+<!--Start of Carousel-->
+
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active" style="background-image: url(images/5.jpg);">
+            <div class="carousel-caption text-center">
+                <h1>Welcome to Mobile-fix</h1>
+                <h3>Repair and maintenance of mobile cell phones</h3>
+
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(images/2.jpg);">
+            <div class="carousel-caption text-center">
+                <h1 style="color: black";>Mobile-fix</h1>
+                <h3 style="color: black";>We also sell variety of phones at affordable prices</h3>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(images/a7.jpg);">
+            <div class="carousel-caption text-center">
+                <h1 style="color: black";>Mobile-fix</h1>
+                <h3 style="color: black";>We also sell phone accessories</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+</div>
+<!--End of Carousel-->
+
+<!--Start of jumbotron-->
+<!--About-->
+    <div class="jumbotron jumbotron-fluid">
+    <div id="t">
+        <h1 style="text-align: center" id="About">About us</h1>
+</div>
+        <div class="row" id="d">
+            <div class="col-md-6">
+                <img src="images/6.jpg" id="i">
+            </div>
+            <div class="col-md-6" id="p">
+                <p> We are the best mobile reparing company in Nairobi. We are located in Westlands Kipro
+                house 3rd floor. We repair phones at very affordable prices and also sell phone covers, screen
+                protectors and earphones. We also repiar broken screens. We have variety of battery replacement which
+                    are original which range from different companies such as Huwawei,Infinix,Oppo,Tecno
+                    and many other companies. We also sell phones which are guranteed to be original and at
+                    affordable prices. We pride ourselves to be the fastest company to get
+                a phone and phone accesories as soon as they are launched. We also buy dead phones</p>
+                <i class="fas fa-bell-slash fa-4x"></i>
+                <i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
+            </div>
+        </div>
+    </div>
+
+            <div id="r">
+                <div>
+                <h2 align="center"; style="color:#1ebba3;" id="Contact">Contact us</h2>
+                </div>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">First name:</label>
+                        <input type="text" class="form-control" id="fname" placeholder="Enter name" name="First name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phn">Phone number:</label>
+                        <input type="text" class="form-control" id="phn" placeholder="Enter phone n.o." name="phn">
+                    </div>
+                    <div class="form-group">
+                        <label for="phn">Your Message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+<!--End of jumbotron-->
+
+<div class="container-fluid">
+    <div id="c">
+    <h2 align="center" id="Gallery">Gallery</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-4">
+            <h1 style="color: black";>Phone stand</h1>
+            <img src="images/a5.jpg">
+        </div>
+        <div class="col-md-4 col-sm-4 col-4">
+            <h1 style="color: black";>Phone cover</h1>
+            <img src="images/a2.jpg">
+        </div>
+        <div class="col-md-4 col-sm-4 col-4">
+            <h1 style="color: black";>Optik zoom lens</h1>
+            <img src="images/a3.jpg">
+        </div>
+
+
+
+<script src="bsfiles/js/jquery.js"></script>
+<script src="bsfiles/js/bootstrap.js"></script>
+
+</body>
+</html>
